@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Curriculum Alejandro Bueno Viñán</title>
+    <link href="./index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- seccion inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">HOME</a></li>
+                        <li><a href="#aboutme" onclick="seleccionar(this)">ABOUT ME</a></li>
+                        <li><a href="#services" onclick="seleccionar(this)">SERVICES</a></li>
+                        <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                        <li><a href="#contact" onclick="seleccionar(this)">CONTACT ME</a></li>
+                        </ul>
+                    </nav>
+                    <!-- icono menu -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- icono redes sociales -->
+                    <div class="social">
+                        <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#github"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentation">
+                <p class="welcome">Welcome</p>
+                <h2>I'm <span>Alejandro Bueno Viñán</span>, Web Developer</h2>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero cum sapiente culpa atque! Voluptatum atque nihil adipisci. Id beatae, quod aliquam mollitia sequi natus recusandae nostrum cupiditate consectetur neque.</p>
+                <a href="#portfolio">Go to my portfolio</a>
+                
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion about me -->
+    <section id="aboutme">
+        <div class="contenedor-foto">
+            <img src="./software-developer-6521720_1920.jpg" alt="">
+        </div>
+        <div class="aboutme">
+            <p class="titulo-seccion">About me</p>
+            <h3>I'm currently studiying <br><span> Web Application Development</span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sequi rerum provident laudantium, eaque culpa voluptate ipsa sapiente corrupti. Aspernatur dolores quaerat quos culpa asperiores eaque odio neque eius dignissimos.</p>
+            <a href="#">Download CV</a>
+        </div>
+    </section>
+
+    <!-- seccion services -->
+    <section id="services">
+        <p id="titulo-seccion">My Services</p>
+        <div id="fila">
+            <div id="service">
+                <span id="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Frontend</h4>
+                <hr>
+                <ul id="services-tag">
+                    <li>Web Design</li>
+                    <li>Multiplatform applications</li>
+                    <li>WordPress</li>
+                    <li>Automatic Web</li>
+                </ul>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat laborum pariatur reprehenderit suscipit nihil autem nesciunt ullam cum necessitatibus ipsa, sint vitae cumque itaque provident rem impedit placeat ad officia.</p>
+            </div>
+            <div id="service">
+                <span id="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Backend</h4>
+                <hr>
+                <ul id="services-tag">
+                    <li>Java</li>
+                    <li>SQL DATABASE</li>
+                </ul>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat laborum pariatur reprehenderit suscipit nihil autem nesciunt ullam cum necessitatibus ipsa, sint vitae cumque itaque provident rem impedit placeat ad officia.</p>
+            </div>
+            <div id="service">
+                <span id="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>SEO</h4>
+                <hr>
+                <ul id="services-tag">
+                    <li>Backlinks</li>
+                    <li>Keyword Research</li>
+                    <li>Generating post with IA</li>
+                </ul>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat laborum pariatur reprehenderit suscipit nihil autem nesciunt ullam cum necessitatibus ipsa, sint vitae cumque itaque provident rem impedit placeat ad officia.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- seccion portfolio -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">My Projects</h3>
+        <div class="fila">
+            <div class="project">
+                <div class="overlay">
+                    <img src="./dbzGame.png" alt="">
+                    <div class="info">
+                        <h4>Description</h4>
+                        <p>Dragon Ball Game: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut incidunt at voluptatibus magni aperiam alias iure maiores quod quidem animi reprehenderit fugit accusamus ratione quam, similique rem autem cum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="overlay">
+                    <img src="./crud.png" alt="">
+                    <div class="info">
+                        <h4>Description</h4>
+                        <p>CRUD: Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ea aliquam exercitationem quasi molestiae natus dicta fuga incidunt hic consequuntur recusandae voluptatum, amet error praesentium cumque vel, itaque minima. Dolorum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contact -->
+    <section id="contact">
+        <h3 class="title-section">Contact me</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila-mitad">
+                    <input type="text" placeholder="Complete name..." class="input-mitad">
+                    <input type="text" placeholder="Email address..." class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Subject..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn-send">
+            </form>
+        </div>
+    </section>
+
+    <!-- seccion footer -->
+    <footer>
+        <p>Copyright - 2023</p>
+        <div class="social">
+            <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#github"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
